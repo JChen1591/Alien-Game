@@ -12,13 +12,13 @@ function Bullet (speed, damage) {
 
 
 // //constructor function
-// function Bullet (speed,damage) {
-//     this.speed;
-//     this.damage;
-//     this.getDetails = function() {
-//         return `${this.speed},${this.damage}`;
-//     };
-// }
+//  function Bullet (speed,damage) {
+//      this.speed;
+//      this.damage;
+//      this.getDetails = function() {
+//          return `${this.speed},${this.damage}`;
+//      };
+//  }
 
 // //class Bullet
 // class Bullet {
@@ -45,4 +45,18 @@ function ship(HP, Speed,) {
     const test = ship()
     console.log(test.fireBullet())
 //constructor function
-//function ship(100, 10, bullet1);
+// function ship(HP, Speed) {
+//     this.HP;
+//     this.Speed;
+//     fireBullet() {
+//         return Bullet(1,1)
+//     };
+// }
+// // class
+// class Ship (HP, Speed) {
+//     this.HP;
+//     this.Speed;
+//     fireBullet() {
+//         return Bullet(1,1)
+//     };
+// }
